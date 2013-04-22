@@ -1,0 +1,11 @@
+1. You couldn't add a main method to Region because it had unimplemented abstract methods in it. They didn't actually do anything yet, and therefore couldn't be tested.
+
+2. Yes we could have. ContainerRegions could have been modified to accept generics. However, we would have to check to make sure that whatever was submitted was a region of some sort.
+
+3. I had trouble with the ContainerRegions. The array of regions always threw a null pointer exception, even though there was a correct pointer. I just googled around until I found a solution. I should be set with it now.
+
+4. I learnt a little more about abstract classes and how they work.
+
+5. A little more instruction would be handy. There were times where I was unsure how to proceed.
+
+6. I worked with two others, and we would talk everything out beforehand, correcting each other and offering up ideas before actually coding anything. 
